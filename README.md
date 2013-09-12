@@ -1,0 +1,4 @@
+dot.config
+==========
+
+My configs
