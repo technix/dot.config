@@ -1,0 +1,13 @@
+#shell -bash
+shelltitle '$ |'
+
+# mc subshell support
+altscreen on
+
+# statusbar
+hardstatus on
+hardstatus alwayslastline '%{= Kk} %H %{= Kk}| %{= Kw}%?%-Lw%?%{= Ky}%n*%f %t%?%{= Ky}(%u)%?%{= Kw}%+Lw%?%= %{= Kk}   | %{k}%Y-%m-%d %c %{=}'
+#hardstatus alwayslastline '%{= w}[ %{G}%H %{= w}][ %{= w}%?%-Lw%?%{= R}%n*%f %t%?%{= R}(%u)%?%{= w}%+Lw%?%= %{=}][ %{B}%Y-%m-%d %{W}%c %{=}]'
+#hardstatus alwayslastline '%{= bW} %H %{= k}| %{= w}%?%-Lw%?%{= Y}%n*%f %t%?%{= Y}(%u)%?%{= w}%+Lw%?%= %{= k}| %{k}%Y-%m-%d %c %{=}'
+
+
